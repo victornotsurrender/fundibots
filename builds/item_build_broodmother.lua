@@ -12,15 +12,16 @@ X["items"] = {
 	"item_power_treads_agi",
 	"item_orb_of_corrosion",
 	"item_diffusal_blade",
-	"item_buckler",
-	"item_blades_of_attack",
-	"item_lifesteal",
 	"item_vladmir",
 	"item_black_king_bar",
 	"item_orchid",
+	"item_helm_of_the_overlord",
 	"item_ultimate_scepter_2",
 	"item_bloodthorn",
-	"item_butterfly"
+	"item_abyssal_blade",
+	--"item_butterfly",
+	"item_aghanims_shard",
+	"item_moon_shard"
 }
 
 X["builds"] = {

@@ -9,12 +9,16 @@ X["items"] = {
 	--"item_phase_boots",
 	"item_power_treads_agi",
 	"item_maelstrom",
-	"item_black_king_bar",
+	"item_lifesteal",
 	"item_ultimate_scepter",
+	"item_black_king_bar",
+	"item_greater_crit",
 	"item_satanic",
 	"item_butterfly",
 	"item_mjollnir",
 	"item_ultimate_scepter_2",
+	"item_moon_shard",
+	"item_aghanims_shard",
 	"item_monkey_king_bar"
 };			
 

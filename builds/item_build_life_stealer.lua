@@ -15,7 +15,9 @@ X["items"] = {
 	"item_mjollnir",
 	"item_assault",
 	"item_abyssal_blade",
-	"item_monkey_king_bar"
+	"item_monkey_king_bar",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

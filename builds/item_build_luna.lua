@@ -15,10 +15,11 @@ X["items"] = {
 	"item_manta",
 	"item_skadi",
 	"item_hurricane_pike",
-	--"item_butterfly",
 	"item_ultimate_scepter_2",
-	"item_greater_crit"
-	
+	"item_butterfly",
+	"item_greater_crit",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

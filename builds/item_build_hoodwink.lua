@@ -8,13 +8,15 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_agi",
 	"item_dragon_lance",
+	"item_desolator",
 	"item_orchid",
 	"item_black_king_bar",
-	"item_desolator",
 	"item_bloodthorn",
 	"item_ultimate_scepter_2",
 	"item_monkey_king_bar",
-	"item_hurricane_pike"
+	"item_hurricane_pike",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };
 
 X["builds"] = {

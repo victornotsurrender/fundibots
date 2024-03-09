@@ -9,16 +9,19 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_agi",
 	"item_dragon_lance",
-	--"item_manta",
-	"item_sange_and_yasha",
-	"item_black_king_bar",
+	"item_yasha",
+	--"item_sange_and_yasha",
+	"item_sphere",
+	--"item_black_king_bar",
 	"item_skadi",
-	"item_greater_crit",
-	--"item_ethereal_blade",
-	--"item_butterfly",
+	"item_manta",
+	--"item_greater_crit",
+	"item_ethereal_blade",
+	"item_butterfly",
 	"item_hurricane_pike",
 	"item_ultimate_scepter_2",
-	
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

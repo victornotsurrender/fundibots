@@ -17,6 +17,7 @@ X["items"] = {
 	"item_ultimate_scepter",
 	"item_ultimate_scepter_2",
 	"item_moon_shard",
+	--"item_greater_crit",
 	"item_ethereal_blade",
 	"item_bloodthorn",
 	"item_aghanims_shard"

@@ -10,15 +10,20 @@ X["items"] = {
 	"item_magic_wand",
 	--"item_phase_boots",
 	"item_power_treads_agi",
-	"item_mask_of_madness",
+	"item_vladmir",
 	"item_maelstrom",
-	"item_hurricane_pike",
+	--"item_mask_of_madness",
 	"item_skadi",
+	"item_butterfly",
+	--"item_helm_of_the_overlord",
+	"item_hurricane_pike",
+	"item_abyssal_blade",
 	"item_mjollnir",
-	"item_greater_crit",
 	--"item_butterfly",
 	"item_ultimate_scepter_2",
-	"item_monkey_king_bar"
+	"item_monkey_king_bar",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

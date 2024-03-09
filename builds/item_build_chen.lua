@@ -9,16 +9,20 @@ X["items"] = {
 	"item_magic_wand",
 	"item_arcane_boots",
 	"item_medallion_of_courage",
-	"item_mekansm",
-	"item_ultimate_scepter",
+	"item_glimmer_cape",
+	"item_rod_of_atos",
+	"item_maelstrom",
+	"item_gungir",
 	"item_force_staff",
-	"item_solar_crest",
 	"item_guardian_greaves",
-	--"item_glimmer_cape",
+	"item_ultimate_scepter",
+	"item_solar_crest",
 	"item_sheepstick",
 	"item_hurricane_pike",
 	"item_ultimate_scepter_2",
-	"item_shivas_guard"
+	"item_aghanims_shard",
+	"item_moon_shard"
+	--"item_shivas_guard",
 };	
 
 X["builds"] = {

@@ -10,13 +10,16 @@ X["items"] = {
 	"item_phase_boots",
 	"item_echo_sabre",
 	--"item_invis_sword",
-	"item_sange_and_yasha",
-	"item_black_king_bar",
+	"item_monkey_king_bar",
+	"item_desolator",
 	"item_ultimate_scepter",
-	"item_abyssal_blade",
-	--"item_silver_edge",
+	--"item_sange_and_yasha",
+	"item_black_king_bar",
 	"item_ultimate_scepter_2",
-	"item_monkey_king_bar"
+	"item_abyssal_blade",
+	"item_moon_shard",
+	"item_aghanims_shard"
+	--"item_silver_edge",
 };			
 
 X["builds"] = {
