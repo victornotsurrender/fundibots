@@ -12,13 +12,15 @@ X["items"] = {
 	"item_arcane_boots",
 	"item_hood_of_defiance",
 	"item_bloodstone",
+	"item_ultimate_scepter_2",
 	"item_lotus_orb",
 	"item_eternal_shroud",
 	--"item_pipe",
 	"item_shivas_guard",
-	"item_heart",
 	"item_guardian_greaves",
-	"item_ultimate_scepter_2"
+	"item_crimson_guard",
+	"item_aghanims_shard",
+	"item_moon_shard"	
 	
 };			
 

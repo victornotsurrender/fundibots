@@ -11,12 +11,15 @@ X["items"] = {
 	"item_aether_lens",
 	"item_glimmer_cape",
 	"item_blink",
-	"item_ultimate_scepter",
+	"item_bloodstone",
+	"item_octarine_core",
 	"item_dagon_5",
 	"item_ultimate_scepter_2",
 	"item_sheepstick",
-	"item_octarine_core",
-	"item_arcane_blink"
+	"item_arcane_blink",
+	"item_guardian_greaves",
+	"item_aghanims_shard",
+	"item_moon_shard"
 	
 };			
 

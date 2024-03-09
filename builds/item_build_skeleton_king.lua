@@ -8,13 +8,16 @@ local skills  = IBUtil.FillSkillTable(npcBot, IBUtil.GetSlotPattern(1));
 X["items"] = { 
 	"item_magic_wand",
 	"item_power_treads_str",
-	"item_armlet",
-	"item_blink",
 	"item_desolator",
-	"item_black_king_bar",
+	"item_blink",
+    "item_radiance",
+	"item_aghanims_shard",
+	"item_ultimate_scepter",
 	"item_assault",
+	"item_moon_shard",
 	"item_overwhelming_blink",
-	"item_ultimate_scepter_2"
+	"item_ultimate_scepter_2",
+	"item_satanic"
 	
 };			
 
