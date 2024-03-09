@@ -10,13 +10,16 @@ X["items"] = {
 	"item_power_treads_str",
 	"item_armlet",
 	"item_ultimate_scepter",
+	"item_heavens_halberd",
 	--"item_dragon_lance",
 	"item_black_king_bar",
-	"item_heavens_halberd",
-	"item_assault",
+	"item_abyssal_blade",
 	--"item_hurricane_pike",
 	"item_ultimate_scepter_2",
-	"item_satanic"
+	"item_assault",
+	"item_moon_shard",
+	"item_aghanims_shard"
+	--"item_satanic"
 };			
 
 X["builds"] = {

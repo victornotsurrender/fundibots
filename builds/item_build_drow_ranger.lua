@@ -10,7 +10,7 @@ X["items"] = {
 	"item_power_treads_agi",
 	"item_dragon_lance",
 	--"item_mask_of_madness",
-	--"item_invis_sword",
+	"item_invis_sword",
     "item_manta",
 	"item_black_king_bar",
 	"item_ultimate_scepter",
@@ -18,6 +18,8 @@ X["items"] = {
 	"item_silver_edge",
 	"item_ultimate_scepter_2",
 	"item_butterfly",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

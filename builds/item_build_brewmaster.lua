@@ -10,16 +10,18 @@ X["items"] = {
 	"item_phase_boots",
 	"item_vladmir",
 	"item_blink",
+	"item_radiance",
 	"item_basher",
-	"item_ultimate_scepter",
-	"item_black_king_bar",
+	"item_assault",
+	"item_moon_shard",
+	--"item_black_king_bar",
 	"item_abyssal_blade",
+	"item_helm_of_the_overlord",
 	--"item_lotus_orb",
 	--"item_shivas_guard",
+	"item_overwhelming_blink",
 	"item_ultimate_scepter_2",
-	"item_assault",
-	"item_overwhelming_blink"
-	--"item_radiance"
+	"item_aghanims_shard"
 }; 
 
 X["builds"] = {

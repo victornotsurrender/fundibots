@@ -15,8 +15,10 @@ X["items"] = {
 	--"item_rod_of_atos",
 	"item_octarine_core",
 	"item_ultimate_scepter_2",
+	"item_wind_waker",
 	"item_heart",
-	"item_wind_waker"
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

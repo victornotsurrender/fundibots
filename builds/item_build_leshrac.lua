@@ -16,7 +16,9 @@ X["items"] = {
 	--"item_octarine_core",
 	"item_ultimate_scepter_2",
 	"item_shivas_guard",
-	"item_wind_waker"
+	"item_wind_waker",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

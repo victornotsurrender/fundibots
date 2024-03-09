@@ -10,15 +10,15 @@ X["items"] = {
 	"item_phase_boots",
 	"item_mask_of_madness",
 	"item_yasha",
+	"item_bfury",
 	"item_diffusal_blade",
 	"item_manta",
-	"item_ultimate_scepter",
-	"item_abyssal_blade",
-	"item_skadi",
 	"item_ultimate_scepter_2",
+	"item_abyssal_blade",
+	"item_moon_shard",
+	"item_aghanims_shard",
+	--"item_skadi",
 	"item_butterfly"
-	
-	
 };			
 
 X["builds"] = {

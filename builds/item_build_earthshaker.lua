@@ -11,14 +11,20 @@ X["items"] = {
 	"item_blink",
 	--"item_veil_of_discord",
 	"item_ultimate_scepter",
-	"item_force_staff",
-	"item_kaya_and_sange",
-	"item_cyclone",
-	"item_overwhelming_blink",
-	"item_hurricane_pike",
+	"item_bfury",
+	--"item_cyclone",
+	"item_greater_crit",
+	"item_silver_edge",
 	"item_ultimate_scepter_2",
-	"item_octarine_core",
-	"item_wind_waker"
+	"item_rapier",
+	--"item_force_staff",
+	--"item_kaya_and_sange",
+	"item_overwhelming_blink",
+	--"item_hurricane_pike",
+	"item_moon_shard",
+	"item_aghanims_shard"
+	--"item_octarine_core",
+	--"item_wind_waker"
 };			
 
 X["builds"] = {

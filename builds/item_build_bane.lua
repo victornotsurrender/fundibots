@@ -13,6 +13,7 @@ X["items"] = {
 	--"item_meteor_hammer",
 	"item_force_staff",
 	"item_arcane_blink",
+	"item_octarine_core",
 	"item_guardian_greaves",
 	"item_sheepstick",
 	"item_hurricane_pike",
@@ -20,7 +21,6 @@ X["items"] = {
 	"item_moon_shard",
 	"item_aghanims_shard",
 	"item_ethereal_blade"
-	--"item_octarine_core",
 };
 
 X["builds"] = {

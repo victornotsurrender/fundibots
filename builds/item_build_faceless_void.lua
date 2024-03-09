@@ -11,10 +11,13 @@ X["items"] = {
 	"item_maelstrom",
 	"item_black_king_bar",
 	"item_mjollnir",
-	"item_satanic",
-	"item_butterfly",
+	"item_monkey_king_bar",
+	"item_greater_crit",
 	"item_ultimate_scepter_2",
-	"item_monkey_king_bar"
+	"item_moon_shard",
+	"item_aghanims_shard",
+	--"item_satanic",
+	"item_butterfly"
 };			
 
 X["builds"] = {

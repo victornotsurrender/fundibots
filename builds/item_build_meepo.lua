@@ -16,10 +16,12 @@ X["items"] = {
 	"item_blink",
 	"item_ultimate_scepter",
 	"item_sheepstick",
-	"item_swift_blink",
-	--"item_heart",
 	"item_ultimate_scepter_2",
-	"item_bloodthorn",
+	"item_heart",
+	"item_swift_blink",
+	"item_moon_shard",
+	"item_aghanims_shard"
+	--"item_bloodthorn",
 	--"item_octarine_core"
 };			
 

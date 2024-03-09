@@ -12,12 +12,16 @@ X["items"] = {
 	"item_dragon_lance",
 	"item_desolator",
 	--"item_orchid",
-	"item_black_king_bar",
-	"item_monkey_king_bar",
-	--"item_bloodthorn",
-	"item_ultimate_scepter_2",
+	--"item_black_king_bar",
+	--"item_monkey_king_bar",
+	"item_bloodthorn",
+	"item_greater_crit",
 	"item_sheepstick",
-	"item_hurricane_pike"
+	"item_ultimate_scepter_2",
+	"item_aghanims_shard",
+	"item_moon_shard",
+	"item_hurricane_pike",
+	"item_abyssal_blade"
 };
 
 X["builds"] = {

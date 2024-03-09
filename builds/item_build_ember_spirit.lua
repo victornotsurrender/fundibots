@@ -11,12 +11,15 @@ X["items"] = {
 	"item_orb_of_corrosion",
 	"item_maelstrom",
 	"item_mage_slayer",
-	"item_lesser_crit",
-	"item_shivas_guard",
+	"item_bfury",
+	--"item_lesser_crit",
+	--"item_shivas_guard",
 	"item_greater_crit",
-	"item_ultimate_scepter_2",
 	"item_sphere",
-	"item_mjollnir"
+	"item_ultimate_scepter_2",
+	"item_mjollnir",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

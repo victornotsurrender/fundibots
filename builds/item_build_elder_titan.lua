@@ -9,13 +9,17 @@ X["items"] = {
 	"item_magic_wand",
 	"item_phase_boots",
 	"item_echo_sabre",
-	"item_ancient_janggo",
-	"item_vladmir",
-	"item_sange_and_yasha",
+	"item_bfury",
 	"item_ultimate_scepter",
+	"item_greater_crit",
+	--"item_ancient_janggo",
+	--"item_vladmir",
+	--"item_sange_and_yasha",
 	"item_assault",
 	"item_ultimate_scepter_2",
-	"item_monkey_king_bar"
+	"item_abyssal_blade",
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {
