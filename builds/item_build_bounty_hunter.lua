@@ -11,18 +11,15 @@ X["items"] = {
 	"item_medallion_of_courage",
 	"item_orb_of_corrosion",
 	"item_desolator",
-	--"item_wind_lace",
-	--"item_crown",
 	"item_solar_crest",
 	"item_orchid",
-	"item_black_king_bar",
-	"item_basher",
-	--"item_hyperstone",
-	"item_bloodthorn",
-	"item_abyssal_blade",
+	"item_dagon_5",
 	"item_ultimate_scepter",
-	"item_ultimate_scepter_2"
-	--"item_dagon_5"
+	"item_ultimate_scepter_2",
+	"item_moon_shard",
+	"item_ethereal_blade",
+	"item_bloodthorn",
+	"item_aghanims_shard"
 };
 
 X["builds"] = {

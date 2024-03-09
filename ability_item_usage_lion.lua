@@ -510,6 +510,10 @@ function ConsiderR()
 		local npcTarget = npcBot:GetTarget();
 		if mutil.IsValidTarget(npcTarget) and mutil.CanCastOnNonMagicImmune(npcTarget) and mutil.IsInRange(npcTarget, npcBot, nCastRange + 200) 
 		then
+			if mutil.CanKillTarget(npcEnemy, nDamage, DAMAGE_TYPE_MAGICAL)
+			then
+				return BOT_ACTION_DESIRE_ABSOLUTE, npcTarget;
+			end
 			local NearbyAllies = npcTarget:GetNearbyHeroes(1000, true, BOT_MODE_NONE)
 			if NearbyAllies ~= nil and #NearbyAllies >= 2 
 			and npcTarget:HasModifier('modifier_templar_assassin_refraction_absorb') == false

@@ -44,11 +44,13 @@ function M.SellExtraItem(ItemsToBuy)
 		end
 		if(GameTime()>40*60 or level>=20)
 		then
-			M.SellSpecifiedItem("item_vladmir")
 			M.SellSpecifiedItem("item_urn_of_shadows")
 			M.SellSpecifiedItem("item_drums_of_endurance")
-			M.SellSpecifiedItem("item_hand_of_midas")
 			M.SellSpecifiedItem("item_dust")
+		end
+		if(GameTime()>60*60 or level>25)
+		then
+			M.SellSpecifiedItem("item_hand_of_midas")
 		end
 		--if(GameTime()>40*60 and npcBot:GetGold()>2500 and (item_travel_boots[1]==nil and item_travel_boots[2]==nil) and npcBot.HaveTravelBoots~=true )
 		--then

@@ -16,7 +16,7 @@ X["items"] = {
 	"item_butterfly",
 	"item_ultimate_scepter_2",
 	"item_bloodthorn",
-	--"item_radiance"
+	"item_radiance"
 };			
 
 X["builds"] = {

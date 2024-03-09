@@ -207,7 +207,6 @@ function GetDesire()
 	   -- or bot:GetActiveMode() == BOT_MODE_ITEM
 	   -- or bot:GetActiveMode() == BOT_MODE_WARD
 	   -- or bot:GetActiveMode() == BOT_MODE_DEFEND_ALLY
-	  
 	then
 		return BOT_MODE_DESIRE_NONE;
 	end
@@ -224,7 +223,7 @@ function GetDesire()
 			-- end
 		-- end
 	-- end
-	if campUtils.IsStrongJungler(bot) and bot:GetLevel() >= 6 and bot:GetLevel() < 25 and not IsHumanPlayerInTeam() and GetGameMode() ~= GAMEMODE_MO 
+	if campUtils.IsStrongJungler(bot) and bot:GetLevel() >= 6 and bot:GetLevel() < 25 and GetGameMode() ~= GAMEMODE_MO 
 	then
 		LaneCreeps = bot:GetNearbyLaneCreeps(1600, true);
 		if LaneCreeps ~= nil and #LaneCreeps > 0 then
@@ -258,7 +257,7 @@ end
 	-- or ( campUtils.IsStrongJungler2(bot) and bot:GetLevel() >= 6 and bot:GetLevel() <= 25 and GetGameMode() ~= GAMEMODE_MO)
 	-- or ( campUtils.IsStrongJungler3(bot) and bot:GetLevel() >= 8 and bot:GetLevel() <= 25 and GetGameMode() ~= GAMEMODE_MO)
 	-- -- or ( role.IsSupport(unitName) and bot:GetLevel() <= 25  ) and (DotaTime() > 2*60 and sec > 53 and sec < 56 ) and DotaTime() < 20*60
-	if (role.IsCarry(unitName) and bot:GetLevel() >= 6
+	if (role.IsCarry(unitName) and bot:GetLevel() >= 3
 	-- and DotaTime() < 25*60
 	)
 	then

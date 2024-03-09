@@ -5,31 +5,19 @@ local npcBot = GetBot();
 local talents = IBUtil.FillTalenTable(npcBot);
 local skills  = IBUtil.FillSkillTable(npcBot, IBUtil.GetSlotPattern(1));
 
---[[X["items"] = { 
-	"item_poor_mans_shield",
-	"item_magic_wand",
-	"item_phase_boots",
-	"item_vanguard",
-	"item_maelstrom",
-	"item_assault",
-	"item_mjollnir",
-	"item_abyssal_blade",
-	"item_butterfly",
-	"item_heart"
-};]]--
-
 X["items"] = { 
 	--"item_phase_boots",
 	--"item_radiance",
 	"item_power_treads_str",
-	"item_bfury",
-	"item_sange_and_yasha",
-	"item_basher",
-	"item_assault",
+	"item_radiance",
+	"item_manta",
 	"item_black_king_bar",
+	"item_basher",
+	"item_greater_crit",
 	"item_abyssal_blade",
+	"item_moon_shard",
+	"item_aghanims_shard",
 	"item_ultimate_scepter_2"
-	
 };
 
 X["builds"] = {

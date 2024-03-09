@@ -9,13 +9,17 @@ X["items"] = {
 	"item_tranquil_boots",
 	"item_blink",
 	"item_force_staff",
-	"item_black_king_bar",
-	--"item_cyclone",
-	"item_ultimate_scepter",
-	"item_octarine_core",
+	"item_cyclone",
+	"item_lotus_orb",
+	--"item_black_king_bar",
+	"item_bloodstone",
+	"item_wind_waker",
 	"item_hurricane_pike",
+	--"item_octarine_core",
 	"item_ultimate_scepter_2",
-	"item_shivas_guard",
+	"item_moon_shard",
+	"item_aghanims_shard",
+	--"item_shivas_guard",
 	"item_arcane_blink"
 	
 };
