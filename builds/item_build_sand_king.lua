@@ -17,7 +17,9 @@ X["items"] = {
 	"item_overwhelming_blink",
 	"item_guardian_greaves",
 	"item_ultimate_scepter_2",
-	"item_octarine_core"
+	"item_heart",
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

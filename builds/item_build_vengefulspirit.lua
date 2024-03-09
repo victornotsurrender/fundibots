@@ -9,15 +9,16 @@ X["items"] = {
 	"item_power_treads_agi",
 	"item_medallion_of_courage",
 	"item_force_staff",
-	"item_aether_lens",
+	"item_desolator",
 	"item_solar_crest",
 	--"item_ultimate_scepter",
 	--"item_cyclone",
 	"item_hurricane_pike",
 	"item_monkey_king_bar",
 	"item_greater_crit",
-	"item_octarine_core",
-	"item_ultimate_scepter_2"
+	"item_ultimate_scepter_2",
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

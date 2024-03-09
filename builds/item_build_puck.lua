@@ -12,12 +12,14 @@ X["items"] = {
 	"item_ultimate_scepter",
 	"item_cyclone",
 	--"item_sheepstick",
-	"item_octarine_core",
+	"item_mjollnir",
 	"item_ultimate_scepter_2",
 	"item_dagon_5",
 	"item_wind_waker",
 	"item_arcane_blink",
-	"item_ethereal_blade"
+	"item_ethereal_blade",
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

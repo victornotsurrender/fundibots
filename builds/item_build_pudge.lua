@@ -12,10 +12,12 @@ X["items"] = {
 	"item_blink",
 	"item_pipe",
 	"item_spirit_vessel",
+	"item_heart",
 	"item_lotus_orb",
 	"item_overwhelming_blink",
 	"item_ultimate_scepter_2",
-	"item_heart"
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

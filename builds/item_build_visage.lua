@@ -10,16 +10,17 @@ X["items"] = {
 	"item_arcane_boots",
 	"item_medallion_of_courage",
 	"item_rod_of_atos",
-	--"item_hood_of_defiance",
+	"item_radiance",
 	"item_solar_crest",
-	--"item_pipe",
 	"item_ultimate_scepter",
-	"item_sheepstick",
 	"item_bloodthorn",
 	--"item_shivas_guard",
 	"item_ultimate_scepter_2",
 	"item_assault",
-	"item_gungir"
+	"item_gungir",
+	"item_guardian_greaves",
+	"item_aghanims_shard",
+	"item_moon_shard"
 	--"item_monkey_king_bar"
 };			
 

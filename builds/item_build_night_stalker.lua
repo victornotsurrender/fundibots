@@ -17,8 +17,10 @@ X["items"] = {
 	"item_assault",
 	"item_overwhelming_blink",
 	"item_abyssal_blade",
-	"item_heart",
-	"item_ultimate_scepter_2"
+	"item_sphere",
+	"item_ultimate_scepter_2",
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

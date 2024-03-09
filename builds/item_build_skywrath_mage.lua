@@ -8,14 +8,15 @@ X["items"] = {
 	"item_magic_wand",
 	"item_arcane_boots",
 	"item_rod_of_atos",
-	"item_force_staff",
-	"item_sheepstick",
 	"item_ultimate_scepter",
-	"item_octarine_core",
+	"item_veil_of_discord",
+	"item_sheepstick",
+	"item_dagon_5",
 	"item_ultimate_scepter_2",
 	"item_ethereal_blade",
-	"item_hurricane_pike",
-	"item_gungir"
+	"item_gungir",
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {
