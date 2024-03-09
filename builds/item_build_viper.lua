@@ -14,16 +14,18 @@ X["items"] = {
 	-- "item_black_king_bar",
 	-- "item_butterfly"
 	"item_power_treads_agi",
-	"item_falcon_blade",
 	"item_dragon_lance",
-	--"item_maelstrom",
-	"item_black_king_bar",
-	"item_hurricane_pike",
+	"item_invis_sword",
 	"item_manta",
+	"item_monkey_king_bar"
+	--"item_maelstrom",
+	"item_silver_edge",
+	"item_hurricane_pike",
 	"item_skadi",
 	--"item_mjollnir",
 	"item_ultimate_scepter_2",
-	"item_monkey_king_bar"
+	"item_aghanims_shard",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

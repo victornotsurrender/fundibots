@@ -11,16 +11,16 @@ X["items"] = {
 	"item_aether_lens",
 	"item_ultimate_scepter",
 	--"item_force_staff",
-	"item_kaya",
-	"item_kaya_and_sange",
-	"item_shivas_guard",
+	"item_blink",
+	"item_sheepstick",
 	"item_dagon_5",
 	"item_octarine_core",
 	--"item_hurricane_pike",
 	"item_ultimate_scepter_2",
-	"item_moon_shard",
+	"item_aeon_disk",
 	"item_aghanims_shard",
-	"item_sheepstick"
+	"item_arcane_blink",
+	"item_moon_shard"
 };			
 
 X["builds"] = {

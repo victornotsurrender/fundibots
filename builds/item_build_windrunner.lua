@@ -10,20 +10,16 @@ X["items"] = {
 	"item_phase_boots",
 	"item_javelin",
 	--"item_maelstrom",
-	"item_force_staff",
-	"item_black_king_bar",
 	"item_monkey_king_bar",
-	"item_blink",
-	"item_ultimate_scepter",
-	--"item_orchid",
-	--"item_bloodthorn",
-	"item_arcane_blink",
-	--"item_mjollnir",
+	"item_diffusal_blade",
+	"item_orchid",
+	"item_black_king_bar",
 	"item_ultimate_scepter_2",
-	"item_octarine_core",
-	"item_hurricane_pike"
-	
-	
+	"item_bloodthorn",
+	--"item_arcane_blink",
+	--"item_mjollnir",
+	"item_aghanims_shard",
+	"item_moon_shard"	
 };			
 
 X["builds"] = {
