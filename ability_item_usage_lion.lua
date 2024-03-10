@@ -470,7 +470,7 @@ function ConsiderR()
 		for _,npcEnemy in pairs(tableNearbyEnemyHeroes)
 		do
 			if mutil.CanCastOnNonMagicImmune(npcEnemy) and mutil.CanKillTarget(npcEnemy, nDamage, DAMAGE_TYPE_MAGICAL) then
-				return BOT_ACTION_DESIRE_HIGH, npcEnemy;
+				return BOT_ACTION_DESIRE_ABSOLUTE, npcEnemy;
 			end
 		end
 	end
@@ -501,6 +501,10 @@ function ConsiderR()
 			then
 				return BOT_ACTION_DESIRE_HIGH, npcEnemy;
 			end
+			if ( npcEnemy:IsHero() and mutil.CanCastOnNonMagicImmune(npcEnemy) and npcEnemy:GetHealth()/npcEnemy:GetMaxHealth() < 0.5 ) 
+			then
+				return BOT_ACTION_DESIRE_ABSOLUTE, npcEnemy;
+			end
 		end
 	end
 	
@@ -511,6 +515,10 @@ function ConsiderR()
 		if mutil.IsValidTarget(npcTarget) and mutil.CanCastOnNonMagicImmune(npcTarget) and mutil.IsInRange(npcTarget, npcBot, nCastRange + 200) 
 		then
 			if mutil.CanKillTarget(npcEnemy, nDamage, DAMAGE_TYPE_MAGICAL)
+			then
+				return BOT_ACTION_DESIRE_ABSOLUTE, npcTarget;
+			end
+			if ( npcTarget:GetHealth()/npcTarget:GetMaxHealth() < 0.5 ) 
 			then
 				return BOT_ACTION_DESIRE_ABSOLUTE, npcTarget;
 			end
