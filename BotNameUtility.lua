@@ -3,369 +3,442 @@ local U = {}
 local dota2team = {
 
 	[1] = {
-		['name'] = "Team Liquid";
-		['alias'] = "Liquid";
+		['name'] = "Navi TI1";
+		['alias'] = "Na'Vi";
 		['players'] = {
-			'miCKe',
-			'qojqva',
-			'Boxi',
-			'Taiga',
-			'iNSaNiA'
+			'Artstyle.Darer',
+			'Puppey',
+			'Dendi',
+			'LightToHeaveN',
+			'XBOCT'
 		};
 		['sponsorship'] = '';
 	},
 	[2] = {
-		['name'] = "Newbee";
-		['alias'] = "Newbee";
+		['name'] = "Fumao";
+		['alias'] = "Fumao";
 		['players'] = {
-			'Fonte',
-			'Aq',
-			'Wizard',
-			'Waixi',
-			'Faith'
+			'Marihuano',
+			'Drogui',
+			'CafeXEver',
+			'Dotero',
+			'Fapper'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
 	[3] = {
-		['name'] = "Boom Esports";
-		['alias'] = "Boom";
+		['name'] = "IG TI2";
+		['alias'] = "iG";
 		['players'] = {
-			'Dreamocel',
-			'Mikoto',
-			'Fbz',
-			'Hyde',
-			'Khezcute'
+			'Zhou',
+			'Ferrari_430',
+			'YYF',
+			'ChuaN',
+			'Faith'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = '';
 	},
 	[4] = {
-		['name'] = "PSG LGD";
-		['alias'] = "PSG.LGD";
-		['players'] = {
-			'eLeVeN',
-			'Somnus丶M',
-			'Chalice',
-			'fy',
-			'xNova'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[5] = {
-		['name'] = "Virtus.pro";
-		['alias'] = "VP";
-		['players'] = {
-			'iLTW',
-			'No[o]ne',
-			'Resolut1on',
-			'Zayac',
-			'Solo'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[6] = {
-		['name'] = "Team Secret";
-		['alias'] = "Secret";
-		['players'] = {
-			'Nisha',
-			'MATUMBAMAN',
-			'zai',
-			'YapzOr',
-			'Puppey'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[7] = {
-		['name'] = "Evil Geniuses";
-		['alias'] = "EG";
-		['players'] = {
-			'Arteezy',
-			'Abed',
-			'RAMZES666',
-			'Cr1t-',
-			'Fly'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[8] = {
-		['name'] = "OG";
-		['alias'] = "OG";
-		['players'] = {
-			'N0tail',
-			'SumaiL	',
-			'Topson',
-			'Saksa',
-			'MidOne'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[9] = {
-		['name'] = "Invictus Gaming";
-		['alias'] = "IG";
-		['players'] = {
-			'flyfly',
-			'Emo',
-			'JT-',
-			'Kaka',
-			'Oli'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[10] = {
-		['name'] = "Quincy Crew";
-		['alias'] = "QCY";
-		['players'] = {
-			'YawaR',
-			'Quinn',
-			'Lelis',
-			'MSS',
-			'SVG'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[11] = {
-		['name'] = "Demon Slayers";
-		['alias'] = "DemSlay";
-		['players'] = {
-			'Oceania',
-			'iAnnihilate',
-			'oldWhite',
-			'Jubei',
-			'N/A'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[12] = {
-		['name'] = "TNC Predator";
-		['alias'] = "TNC";
-		['players'] = {
-			'Gabbi',
-			'Armel',
-			'kpii',
-			'Tims',
-			'March'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[13] = {
-		['name'] = " Ninjas in Pyjamas";
-		['alias'] = "NiP";
-		['players'] = {
-			'CharlieDota',
-			'Supream^',
-			'SabeRLight-',
-			'Era',
-			'SoNNeikO '
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[14] = {
-		['name'] = "Royal Never Give Up";
-		['alias'] = "RNG";
-		['players'] = {
-			'Monet',
-			'Setsu',
-			'Flyby',
-			'September',
-			'Super'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[15] = {
-		['name'] = "B8";
-		['alias'] = "B8";
-		['players'] = {
-			'Crystallis	',
-			'Dendi',
-			'LastHero',
-			'5up',
-			'Fishman'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[16] = {
-		['name'] = "Natus Vincere";
+		['name'] = "Navi TI2";
 		['alias'] = "Na'Vi";
 		['players'] = {
-			'Crystallize',
-			'young G',
-			'9pasha',
-			'Immersion',
-			'illias'
+			'XBOCT',
+			'Dendi',
+			'LightToHeaveN',
+			'Puppey',
+			'ARS-ART'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = '';
 	},
-	[17] = {
-		['name'] = "Vikin.gg";
-		['alias'] = "Vikin.gg";
+	[5] = {
+		['name'] = "Naruto";
+		['alias'] = "";
 		['players'] = {
-			'Shad',
-			'BOOM',
-			'Tobi',
-			'Aramis',
-			'Seleri'
+			'Madara',
+			'Naruto',
+			'Hashirama',
+			'Shikamaru',
+			'Obito'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
-	[18] = {
-		['name'] = "Nigma";
-		['alias'] = "Nigma";
+	[6] = {
+		['name'] = "Bahia1";
+		['alias'] = "";
 		['players'] = {
+			'Oriol Bot',
+			'Bah3l Bot',
+			'_yo_ Bot',
+			'Ariel Bot',
+			'Lawliet Bot'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[7] = {
+		['name'] = "Newbee TI4";
+		['alias'] = "Newbee";
+		['players'] = {
+			'Hao',
+			'Mu',
+			'xiao8',
+			'Banana',
+			'SanSheng'
+		};
+		['sponsorship'] = '';
+	},
+	[8] = {
+		['name'] = "VG TI4";
+		['alias'] = "VG";
+		['players'] = {
+			'Sylar',
+			'Super',
+			'rOtk',
+			'fy',
+			'Fenrir'
+		};
+		['sponsorship'] = '';
+	},
+	[9] = {
+		['name'] = "Evil Geniuses TI5";
+		['alias'] = "EG";
+		['players'] = {
+			'Fear',
+			'SumaiL.Coffin',
+			'UNiVeRsE',
+			'Aui_2000',
+			'ppd'
+		};
+		['sponsorship'] = '';
+	},
+	[10] = {
+		['name'] = "Bahia2";
+		['alias'] = "";
+		['players'] = {
+			'Fundi Bot',
+			'Hattori Bot',
+			'Maxwell Bot',
+			'Fokin Bot',
+			'Raul Bot'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[11] = {
+		['name'] = "Wings Gaming TI6";
+		['alias'] = "Wings";
+		['players'] = {
+			'shadow',
+			'跳刀跳刀丶.bLink',
+			'Faith_bian.Vicky',
+			'y`.innocence',
+			'iceice'
+		};
+		['sponsorship'] = '';
+	},
+	[12] = {
+		['name'] = "Comunista";
+		['alias'] = "Rojo";
+		['players'] = {
+			'Marx',
+			'Lenin',
+			'Stalin',
+			'Mao',
+			'Trotski'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[13] = {
+		['name'] = "Team Liquid TI7";
+		['alias'] = "Liquid";
+		['players'] = {
+			'MATUMBAMAN',
 			'Miracle-',
-			'w33',
 			'MinD_ContRoL',
 			'GH',
 			'KuroKy'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = '';
 	},
-	[19] = {
-		['name'] = "iG Vitality";
-		['alias'] = "iG.V";
+	[14] = {
+		['name'] = "Newbee TI7";
+		['alias'] = "Newbee";
 		['players'] = {
-			'Dust',
-			'ButterflyEffect',
-			'BEYOND',
-			'@dogf1ghts',
-			'DoDo'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[20] = {
-		['name'] = "Fnatic";
-		['alias'] = "Fnatic";
-		['players'] = {
-			'23savage',
-			'Moon',
-			'iceiceice',
-			'DJ',
-			'Jabz'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[21] = {
-		['name'] = "Alliance";
-		['alias'] = "Alliance";
-		['players'] = {
-			'Nikobaby',
-			'Limmp',
-			's4 ',
-			'Handsken',
-			'fng'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[22] = {
-		['name'] = "T1";
-		['alias'] = "T1";
-		['players'] = {
-			'Meracle',
-			'inYourdreaM',
-			'Forev',
-			'Jhocam',
-			'Poloson'
-		};
-		['sponsorship'] = 'G2A';
-	},
-	[23] = {
-		['name'] = "beastcoast";
-		['alias'] = "bc";
-		['players'] = {
-			'K1',
-			'Chris Luck',
-			'Wisper',
-			'Scofield',
-			'MoOz '
+			'Moogy',
+			'Sccc',
+			'kpii',
+			'Kaka',
+			'Faith'
 		};
 		['sponsorship'] = '';
 	},
-	[24] = {
-		['name'] = "Geek Fam";
-		['alias'] = "GeekFam";
+	[15] = {
+		['name'] = "OG TI8";
+		['alias'] = "OG";
 		['players'] = {
-			'Raven',
-			'Karl',
-			'Kuku',
-			'Xepher',
-			'Whitemon'
+			'ana',
+			'Topson',
+			'7ckngMad',
+			'JerAx',
+			'N0tail'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = '';
+	},
+	[16] = {
+		['name'] = "Nobel";
+		['alias'] = "Nobel";
+		['players'] = {
+			'Einstein',
+			'Bohr',
+			'Marie Curie',
+			'Heisemberg',
+			'Oppenheimer'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[17] = {
+		['name'] = "Nadie";
+		['alias'] = "Nadie";
+		['players'] = {
+			'Fulano',
+			'Ciclano',
+			'Menganejo',
+			'Esperanzejo',
+			'Futano'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[18] = {
+		['name'] = "Linux";
+		['alias'] = "Linux";
+		['players'] = {
+			'Tux',
+			'GNU',
+			'Torvalds',
+			'Stallman',
+			'Kali'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[19] = {
+		['name'] = "Bleach";
+		['alias'] = "Bleach";
+		['players'] = {
+			'Ichigo',
+			'Minamoto',
+			'Kempachi',
+			'Byakuga',
+			'Quincy'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[20] = {
+		['name'] = "One Piece";
+		['alias'] = "One Piece";
+		['players'] = {
+			'Luffy',
+			'Kaido',
+			'Big Mamma',
+			'Shirohige',
+			'Borsalino'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[21] = {
+		['name'] = "Cuba";
+		['alias'] = "";
+		['players'] = {
+			'Canel',
+			'Marrero',
+			'Castro',
+			'Lazo',
+			'Gil'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[22] = {
+		['name'] = "Historicos";
+		['alias'] = "";
+		['players'] = {
+			'Napoleon',
+			'Julio Cesar',
+			'Alejandro Magno',
+			'Sun Tzu',
+			'Victoria'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[23] = {
+		['name'] = "Nazi";
+		['alias'] = "Nazi";
+		['players'] = {
+			'Goebbels',
+			'Hitler',
+			'Bormann',
+			'Paulus',
+			'Banderas'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[24] = {
+		['name'] = "America";
+		['alias'] = "America";
+		['players'] = {
+			'Washington',
+			'Abraham Lincoln',
+			'JFK',
+			'Trump',
+			'Teddy'
+		};
+		['sponsorship'] = 'Fundi';
 	},
 	[25] = {
-		['name'] = "HellRaisers";
-		['alias'] = "HR";
+		['name'] = "GOT";
+		['alias'] = "GOT";
 		['players'] = {
-			'xannii',
-			'Nix',
-			'RodjER',
-			'Funn1k',
-			'Miposhka '
+			'Daenerys',
+			'Jon Snow',
+			'The Mountain',
+			'R.R. Martin',
+			'Tyrion'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
 	[26] = {
-		['name'] = "FlyToMoon";
-		['alias'] = "FlyToMoon";
+		['name'] = "Shogun";
+		['alias'] = "Shogun";
 		['players'] = {
-			'V-Tune',
-			'Iceberg',
-			'GeneRaL',
-			'ALOHADANCE',
-			'ALWAYSWANNAFLY'
+			'El PAPI Shimozuma',
+			'Date Masamune',
+			'Takeda Shingen',
+			'Hattori Hanzo',
+			'Uesugi Kenshin'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
 	[27] = {
-		['name'] = "Team Unique";
-		['alias'] = "Unique";
+		['name'] = "Instec";
+		['alias'] = "Instec";
 		['players'] = {
-			'Palantimos',
-			'19teen',
-			'633',
-			'illusion',
-			'VANSKOR'
+			'Alfo',
+			'Maikel'
+			'Hernan',
+			'Piskunov',
+			'Ravelo'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
 	[28] = {
-		['name'] = "Vici Gaming";
-		['alias'] = "VG";
+		['name'] = "Apostoles";
+		['alias'] = "Ap";
 		['players'] = {
-			'Eurus',
-			'Ori',
-			'Yang',
-			'Pyw',
-			'Dy'
+			'Mateo',
+			'Pablo',
+			'Pedro',
+			'Juan',
+			'Judas'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
 	[29] = {
-		['name'] = "EHOME";
-		['alias'] = "EHOME";
+		['name'] = "Cuba";
+		['alias'] = "";
 		['players'] = {
-			'Sylar',
-			'NothingToSay',
-			'Faith_bian',
-			'XinQ',
-			'y`'
+			'Canel',
+			'Marrero',
+			'Castro',
+			'Lazo',
+			'Gil'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
 	},
 	[30] = {
-		['name'] = "Team Aster";
-		['alias'] = "Aster";
+		['name'] = "Ajedrez";
+		['alias'] = "Chess";
 		['players'] = {
-			'Sccc',
-			'ChYuan',
-			'Xxs',
-			'BoBoKa',
-			'Fade'
+			'Capablanca',
+			'Kasparov',
+			'Karpov',
+			'Carlsen',
+			'Fischer'
 		};
-		['sponsorship'] = 'G2A';
+		['sponsorship'] = 'Fundi';
+	},
+	[31] = {
+		['name'] = "LOTR";
+		['alias'] = "LOTR";
+		['players'] = {
+			'Gandalf',
+			'Sauron',
+			'Saruman',
+			'Aragorn',
+			'Legolas'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[32] = {
+		['name'] = "Cuba2";
+		['alias'] = "Cuba";
+		['players'] = {
+			'Apagon',
+			'Hambre',
+			'DPEPDPE',
+			'ETECSA',
+			'Moringa'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[33] = {
+		['name'] = "Poet";
+		['alias'] = "Poet";
+		['players'] = {
+			'Quevedo',
+			'Garcia Lorca',
+			'Marti',
+			'Ruben Dario',
+			'Guillen'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[34] = {
+		['name'] = "Atomo";
+		['alias'] = "Atomo";
+		['players'] = {
+			'Neutron',
+			'Electron',
+			'Proton',
+			'Foton',
+			'Quarks'
+		};
+		['sponsorship'] = 'Fundi';
+	},
+	[35] = {
+		['name'] = "Inclusivo";
+		['alias'] = "Inclusivo";
+		['players'] = {
+			'Negro',
+			'Chino',
+			'Mujer',
+			'Gay',
+			'Vegano'
+		};
+		['sponsorship'] = 'Fundi';
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
 
-local sponsorship = {"GG.bet", "gg.bet", "VPGAME", "LOOT.bet", "loot.bet", "", "Esports.bet", "G2A", "Dota2.net"};
+local sponsorship = {"RMMAI"};
 
 function U.GetDota2Team()
 	local bot_names = {};
@@ -382,10 +455,10 @@ function U.GetDota2Team()
 	end
 	local team = dota2team[rand];
 	for _,player in pairs(team.players) do
-		if sponsorship[srand] == "" then
-			table.insert(bot_names, team.alias.."."..player);
-		else
+		if team.sponsorship == "" then
 			table.insert(bot_names, team.alias.."."..player.."."..sponsorship[srand]);
+		else
+			table.insert(bot_names, team.alias.."."..player.."."..team.sponsorship);
 		end
 	end
 	return bot_names;
