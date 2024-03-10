@@ -213,8 +213,8 @@ local dota2team = {
 			'Tux',
 			'GNU',
 			'Torvalds',
-			'Stallman',
-			'Kali'
+			'Kali',
+			'Stallman'
 		};
 		['sponsorship'] = 'Fundi';
 	},
@@ -236,7 +236,7 @@ local dota2team = {
 		['players'] = {
 			'Luffy',
 			'Kaido',
-			'Big Mamma',
+			'Big Mom',
 			'Shirohige',
 			'Borsalino'
 		};
@@ -249,19 +249,19 @@ local dota2team = {
 			'Canel',
 			'Marrero',
 			'Castro',
-			'Lazo',
-			'Gil'
+			'Gil',
+			'Lazo'
 		};
 		['sponsorship'] = 'Fundi';
 	},
 	[22] = {
-		['name'] = "Historicos";
-		['alias'] = "";
+		['name'] = "History";
+		['alias'] = "History";
 		['players'] = {
-			'Napoleon',
+			'Sun Tzu',
 			'Julio Cesar',
 			'Alejandro Magno',
-			'Sun Tzu',
+			'Napoleon',
 			'Victoria'
 		};
 		['sponsorship'] = 'Fundi';
@@ -283,9 +283,9 @@ local dota2team = {
 		['alias'] = "America";
 		['players'] = {
 			'Washington',
-			'Abraham Lincoln',
-			'JFK',
+			'Lincoln',
 			'Trump',
+			'JFK',
 			'Teddy'
 		};
 		['sponsorship'] = 'Fundi';
@@ -306,7 +306,7 @@ local dota2team = {
 		['name'] = "Shogun";
 		['alias'] = "Shogun";
 		['players'] = {
-			'El PAPI Shimozuma',
+			'Shimozuma Jutsurai',
 			'Date Masamune',
 			'Takeda Shingen',
 			'Hattori Hanzo',
@@ -319,10 +319,10 @@ local dota2team = {
 		['alias'] = "Instec";
 		['players'] = {
 			'Alfo',
-			'Maikel'
-			'Hernan',
+			'Ravelo',
 			'Piskunov',
-			'Ravelo'
+			'Hernan',
+			'Maikel'
 		};
 		['sponsorship'] = 'Fundi';
 	},
@@ -438,7 +438,7 @@ local dota2team = {
 	
 }
 
-local sponsorship = {"RMMAI"};
+local sponsorship = {"Fundi"};
 
 function U.GetDota2Team()
 	local bot_names = {};
