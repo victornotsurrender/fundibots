@@ -34,10 +34,10 @@ X["hero_roles"] = {
 		['durable'] = 2,
 		['escape'] = 0,
 		['initiator'] = 1,
-		['jungler'] = 0,
+		['jungler'] = 3,
 		['nuker'] = 1,
-		['support'] = 1,
-		['pusher'] = 0
+		['support'] = 0,
+		['pusher'] = 2
 	},
 
 	["npc_dota_hero_axe"] = {
@@ -257,15 +257,15 @@ X["hero_roles"] = {
 	},
 
 	["npc_dota_hero_legion_commander"] = {
-		['carry'] = 1,
+		['carry'] = 3,
 		['disabler'] = 2,
 		['durable'] = 1,
 		['escape'] = 0,
 		['initiator'] = 1,
-		['jungler'] = 0,
+		['jungler'] = 2,
 		['nuker'] = 1,
 		['support'] = 0,
-		['pusher'] = 0
+		['pusher'] = 2
 	},
 
 	["npc_dota_hero_life_stealer"] = {
@@ -274,7 +274,7 @@ X["hero_roles"] = {
 		['durable'] = 2,
 		['escape'] = 1,
 		['initiator'] = 0,
-		['jungler'] = 1,
+		['jungler'] = 3,
 		['nuker'] = 0,
 		['support'] = 0,
 		['pusher'] = 0
@@ -286,7 +286,7 @@ X["hero_roles"] = {
 		['durable'] = 1,
 		['escape'] = 1,
 		['initiator'] = 0,
-		['jungler'] = 1,
+		['jungler'] = 2,
 		['nuker'] = 0,
 		['support'] = 0,
 		['pusher'] = 3
@@ -310,7 +310,7 @@ X["hero_roles"] = {
 		['durable'] = 2,
 		['escape'] = 0,
 		['initiator'] = 2,
-		['jungler'] = 0,
+		['jungler'] = 1,
 		['nuker'] = 1,
 		['support'] = 0,
 		['pusher'] = 0
@@ -580,6 +580,18 @@ X["hero_roles"] = {
 		['pusher'] = 0
 	},
 	
+	["npc_dota_hero_marci"] = {
+		['carry'] = 2,
+		['disabler'] = 1,
+		['durable'] = 1,
+		['escape'] = 0,
+		['initiator'] = 1,
+		['jungler'] = 0,
+		['nuker'] = 2,
+		['support'] = 0,
+		['pusher'] = 0
+	},
+	
 	["npc_dota_hero_drow_ranger"] = {
 		['carry'] = 2,
 		['disabler'] = 1,
@@ -610,7 +622,7 @@ X["hero_roles"] = {
 		['durable'] = 1,
 		['escape'] = 1,
 		['initiator'] = 3,
-		['jungler'] = 0,
+		['jungler'] = 2,
 		['nuker'] = 0,
 		['support'] = 0,
 		['pusher'] = 0
@@ -685,7 +697,7 @@ X["hero_roles"] = {
 		['jungler'] = 0,
 		['nuker'] = 2,
 		['support'] = 0,
-		['pusher'] = 1
+		['pusher'] = 3
 	},
 
 	["npc_dota_hero_mirana"] = {
@@ -730,7 +742,7 @@ X["hero_roles"] = {
 		['durable'] = 0,
 		['escape'] = 1,
 		['initiator'] = 1,
-		['jungler'] = 0,
+		['jungler'] = 2,
 		['nuker'] = 0,
 		['support'] = 1,
 		['pusher'] = 2
@@ -754,8 +766,8 @@ X["hero_roles"] = {
 		['durable'] = 0,
 		['escape'] = 1,
 		['initiator'] = 0,
-		['jungler'] = 0,
-		['nuker'] = 0,
+		['jungler'] = 2,
+		['nuker'] = 2,
 		['support'] = 0,
 		['pusher'] = 0
 	},
@@ -769,7 +781,7 @@ X["hero_roles"] = {
 		['jungler'] = 0,
 		['nuker'] = 1,
 		['support'] = 0,
-		['pusher'] = 1
+		['pusher'] = 2
 	},
 
 	["npc_dota_hero_razor"] = {
@@ -865,7 +877,7 @@ X["hero_roles"] = {
 		['jungler'] = 0,
 		['nuker'] = 1,
 		['support'] = 0,
-		['pusher'] = 2
+		['pusher'] = 3
 	},
 
 	["npc_dota_hero_troll_warlord"] = {
@@ -874,7 +886,7 @@ X["hero_roles"] = {
 		['durable'] = 1,
 		['escape'] = 0,
 		['initiator'] = 0,
-		['jungler'] = 0,
+		['jungler'] = 2,
 		['nuker'] = 0,
 		['support'] = 0,
 		['pusher'] = 1
@@ -982,10 +994,10 @@ X["hero_roles"] = {
 		['durable'] = 0,
 		['escape'] = 0,
 		['initiator'] = 0,
-		['jungler'] = 3,
+		['jungler'] = 1,
 		['nuker'] = 0,
 		['support'] = 2,
-		['pusher'] = 2
+		['pusher'] = 3
 	},
 
 	["npc_dota_hero_crystal_maiden"] = {
@@ -1417,7 +1429,7 @@ X["hero_roles"] = {
 		['jungler'] = 0,
 		['nuker'] = 0,
 		['support'] = 1,
-		['pusher'] = 0
+		['pusher'] = 3
 	},
 
 	["npc_dota_hero_windrunner"] = {
@@ -1664,6 +1676,7 @@ X['safe'] = {
 	'npc_dota_hero_antimage',
 	'npc_dota_hero_chaos_knight',
 	'npc_dota_hero_drow_ranger',
+	'npc_dota_hero_marci',
 	'npc_dota_hero_faceless_void',
 	'npc_dota_hero_gyrocopter',
 	'npc_dota_hero_juggernaut',

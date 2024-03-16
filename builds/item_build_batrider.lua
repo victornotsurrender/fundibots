@@ -16,11 +16,11 @@ X["items"] = {
 	"item_wind_waker",
 	"item_hurricane_pike",
 	"item_ultimate_scepter_2",
-	"item_moon_shard",
-	"item_aghanims_shard",
 	--"item_shivas_guard",
-	"item_arcane_blink"
-	
+	"item_arcane_blink",
+	"item_aghanims_shard",
+	"item_moon_shard"
+		
 };
 
 X["builds"] = {

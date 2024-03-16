@@ -16,9 +16,9 @@ X["items"] = {
 	"item_sheepstick",
 	"item_ultimate_scepter_2",
 	"item_octarine_core",
-	"item_aghanims_shard",
 	"item_refresher",
-	"item_moon_shard"
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

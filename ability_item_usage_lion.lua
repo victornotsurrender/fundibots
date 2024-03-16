@@ -145,7 +145,7 @@ function ConsiderQ()
 			if  mutil.CanCastOnNonMagicImmune(npcEnemy)
 			then	
 		for _,u in pairs(Atowers) do
-			if GetUnitToLocationDistance(bot,u:GetLocation()) <= 700 and GetUnitToLocationDistance(npcEnemy,u:GetLocation()) <= 700
+			if GetUnitToLocationDistance(bot,u:GetLocation()) <= 500 and GetUnitToLocationDistance(npcEnemy,u:GetLocation()) <= 500
 				then
 			if #allies >= 0 then
 				local cpos = utils.GetTowardsFountainLocation( npcEnemy:GetLocation(), 0);
@@ -161,9 +161,19 @@ function ConsiderQ()
 	
 	
 	--if we can kill any enemies
+	
+--	for _,npcEnemy in pairs(tableNearbyEnemyHeroes)
+--	do
+--		if mutil.CanCastOnNonMagicImmune(npcEnemy) and ( mutil.CanKillTarget(npcEnemy, nDamage, DAMAGE_TYPE_MAGICAL) or npcEnemy:IsChanneling() ) then
+	--		return BOT_ACTION_DESIRE_HIGH, npcEnemy, 'target';
+	--	end
+	--end
+	
+	
+	--si puede interrumpir un channeling
 	for _,npcEnemy in pairs(tableNearbyEnemyHeroes)
 	do
-		if mutil.CanCastOnNonMagicImmune(npcEnemy) and ( mutil.CanKillTarget(npcEnemy, nDamage, DAMAGE_TYPE_MAGICAL) or npcEnemy:IsChanneling() ) then
+		if mutil.CanCastOnNonMagicImmune(npcEnemy) and  npcEnemy:IsChanneling()  then
 			return BOT_ACTION_DESIRE_HIGH, npcEnemy, 'target';
 		end
 	end
@@ -497,13 +507,13 @@ function ConsiderR()
 	then
 		for _,npcEnemy in pairs( tableNearbyEnemyHeroes )
 		do
-			if ( npcEnemy:IsHero() and role.IsCarry(npcEnemy:GetUnitName()) and mutil.CanCastOnNonMagicImmune(npcEnemy) ) 
+			if ( npcEnemy:IsHero() and mutil.CanKillTarget(npcEnemy, nDamage, DAMAGE_TYPE_MAGICAL and mutil.CanCastOnNonMagicImmune(npcEnemy) ) 
 			then
-				return BOT_ACTION_DESIRE_HIGH, npcEnemy;
+				return BOT_ACTION_DESIRE_ABSOLUTE, npcEnemy;
 			end
 			if ( npcEnemy:IsHero() and mutil.CanCastOnNonMagicImmune(npcEnemy) and npcEnemy:GetHealth()/npcEnemy:GetMaxHealth() < 0.5 ) 
 			then
-				return BOT_ACTION_DESIRE_ABSOLUTE, npcEnemy;
+				return BOT_ACTION_DESIRE_MODERATE, npcEnemy;
 			end
 		end
 	end

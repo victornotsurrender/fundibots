@@ -6,7 +6,6 @@ local talents = IBUtil.FillTalenTable(npcBot);
 local skills  = IBUtil.FillSkillTable(npcBot, IBUtil.GetSlotPattern(1));
 
 X["items"] = { 
-	"item_magic_wand",
 	--"item_arcane_boots",
 	"item_power_treads_int",
 	"item_rod_of_atos",

@@ -277,7 +277,7 @@ function ConsiderOverwhelmingOdds()
 		then
 			local nearbyTrees = npcBot:GetNearbyTrees(nCastRange + nRadius)
 			if nearbyTrees[1] ~= nil then
-				return BOT_ACTION_DESIRE_MODERATE, GetTreeLocation(nearbyTrees[1])
+				return BOT_ACTION_DESIRE_HIGH, GetTreeLocation(nearbyTrees[1])
 			end
 		end
 	end
@@ -294,7 +294,7 @@ function ConsiderOverwhelmingOdds()
 				then
 					local nearbyTrees = npcBot:GetNearbyTrees(nCastRange + nRadius)
 				if nearbyTrees[1] ~= nil then
-					return BOT_ACTION_DESIRE_MODERATE, GetTreeLocation(nearbyTrees[1])
+					return BOT_ACTION_DESIRE_HIGH, GetTreeLocation(nearbyTrees[1])
 				end
 				end
 			end
@@ -326,6 +326,8 @@ function ConsiderChrono()
 	if ( not abilityCS:IsFullyCastable() ) 
 	then 
 		return BOT_ACTION_DESIRE_NONE, 0;
+	elseif npcBot:GetMana/npcBot:GetMaxMana > 0.5
+		return BOT_ACTION_DESIRE_ABSOLUTE, 0;
 	end
 
 	local RB = Vector(-7200,-6666)

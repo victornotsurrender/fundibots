@@ -1,0 +1,21 @@
+Bug Report bots fundis dota 2:
+
+====[Fundi:]====
+-Rasta deberia tirarle el 6 a las torres?
+-Las wards del Rasta no atacan al golem del Warlock
+-El Lion no suelda a la gente para acumular cargas
+-El Lion frecuentemente falla el level 1
+
+
+
+
+
+Fixes (untested):
+-Supuestamente implementé a Marci de forma bastante basica
+-Supuestamente el druida ahora le da bota de fase al oso
+-El nature tira el 6 para creepear
+-El puerco ahora tira pincho constantemente si ya se armo la bloodstone y tiene mas de la mitad del mana
+-Ahora varias bot se creen mas jungler y pusher de lo que deberian, lo cual debe hacerlas creepear con mas ganas
+-Les quite el refresher y la esquirla de aghanim a todos los heroes (en realidad la puse de ultimo en la lista de compra)
+-Actualice el build de muchos heroes para hacerlos mas malvados y violentos
+-Otros detalles menores

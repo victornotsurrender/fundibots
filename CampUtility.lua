@@ -64,6 +64,8 @@ local jungler1 = {
 	-- 'npc_dota_hero_bloodseeker',	
 	'npc_dota_hero_legion_commander',
 	'npc_dota_hero_life_stealer',
+	'npc_dota_hero_alchemist',
+	'npc_dota_hero_lycan',	
 	'npc_dota_hero_skeleton_king'
 	-- 'npc_dota_hero_alchemist',
 	-- 'npc_dota_hero_pudge',
@@ -73,9 +75,10 @@ local jungler1 = {
 
 --test hero
 local jungler2 = {
-	'npc_dota_hero_alchemist',	
 	'npc_dota_hero_ursa',
+	'npc_dota_hero_clinkz',
 	'npc_dota_hero_lone_druid',
+	'npc_dota_hero_antimage',
 	'npc_dota_hero_shredder',
 	'npc_dota_hero_furion',
 	'npc_dota_hero_terrorblade',
@@ -107,7 +110,6 @@ local jungler3 = {
 	'npc_dota_hero_morphling',
 	-- 'npc_dota_hero_shredder',
 	-- 'npc_dota_hero_broodmother',
-	'npc_dota_hero_antimage',
 	'npc_dota_hero_dark_seer',
 	'npc_dota_hero_weaver',
 	'npc_dota_hero_obsidian_destroyer',
@@ -129,8 +131,6 @@ local jungler3 = {
 	'npc_dota_hero_enigma',
 	'npc_dota_hero_visage',
 	'npc_dota_hero_riki',
-	'npc_dota_hero_lycan',
-	'npc_dota_hero_clinkz',
 	'npc_dota_hero_techies',
 	'npc_dota_hero_winter_wyvern',
 	'npc_dota_hero_pugna',

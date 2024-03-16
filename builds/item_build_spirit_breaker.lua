@@ -9,13 +9,13 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_str",
 	"item_blade_mail",
-	"item_echo_sabre",
+	"item_spirit_vessel",
 	"item_invis_sword",
-	"item_moon_shard",
-	"item_silver_edge",
 	"item_assault",
+	"item_silver_edge",
 	"item_heavens_halberd",
 	"item_ultimate_scepter_2",
+	"item_moon_shard",
 	"item_aghanims_shard"
 };			
 

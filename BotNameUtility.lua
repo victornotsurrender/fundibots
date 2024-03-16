@@ -24,7 +24,7 @@ local dota2team = {
 			'Dotero',
 			'Fapper'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[3] = {
 		['name'] = "IG TI2";
@@ -52,7 +52,7 @@ local dota2team = {
 	},
 	[5] = {
 		['name'] = "Naruto";
-		['alias'] = "";
+		['alias'] = "Naruto";
 		['players'] = {
 			'Madara',
 			'Naruto',
@@ -60,7 +60,7 @@ local dota2team = {
 			'Shikamaru',
 			'Obito'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[6] = {
 		['name'] = "Bahia1";
@@ -72,7 +72,7 @@ local dota2team = {
 			'Ariel Bot',
 			'Lawliet Bot'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[7] = {
 		['name'] = "Newbee TI4";
@@ -118,9 +118,9 @@ local dota2team = {
 			'Hattori Bot',
 			'Maxwell Bot',
 			'Fokin Bot',
-			'Raul Bot'
+			'Jorge Bot'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[11] = {
 		['name'] = "Wings Gaming TI6";
@@ -144,7 +144,7 @@ local dota2team = {
 			'Mao',
 			'Trotski'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[13] = {
 		['name'] = "Team Liquid TI7";
@@ -192,7 +192,7 @@ local dota2team = {
 			'Heisemberg',
 			'Oppenheimer'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[17] = {
 		['name'] = "Nadie";
@@ -204,7 +204,7 @@ local dota2team = {
 			'Esperanzejo',
 			'Futano'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[18] = {
 		['name'] = "Linux";
@@ -216,23 +216,23 @@ local dota2team = {
 			'Kali',
 			'Stallman'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[19] = {
 		['name'] = "Bleach";
 		['alias'] = "Bleach";
 		['players'] = {
 			'Ichigo',
-			'Minamoto',
+			'Yamamoto',
 			'Kempachi',
 			'Byakuga',
 			'Quincy'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[20] = {
 		['name'] = "One Piece";
-		['alias'] = "One Piece";
+		['alias'] = "OP";
 		['players'] = {
 			'Luffy',
 			'Kaido',
@@ -240,23 +240,23 @@ local dota2team = {
 			'Shirohige',
 			'Borsalino'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[21] = {
 		['name'] = "Cuba";
-		['alias'] = "";
+		['alias'] = "PCC";
 		['players'] = {
-			'Canel',
+			'Canelo',
 			'Marrero',
 			'Castro',
 			'Gil',
 			'Lazo'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[22] = {
 		['name'] = "History";
-		['alias'] = "History";
+		['alias'] = "";
 		['players'] = {
 			'Sun Tzu',
 			'Julio Cesar',
@@ -264,7 +264,7 @@ local dota2team = {
 			'Napoleon',
 			'Victoria'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[23] = {
 		['name'] = "Nazi";
@@ -276,7 +276,7 @@ local dota2team = {
 			'Paulus',
 			'Banderas'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[24] = {
 		['name'] = "America";
@@ -288,7 +288,7 @@ local dota2team = {
 			'JFK',
 			'Teddy'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[25] = {
 		['name'] = "GOT";
@@ -300,7 +300,7 @@ local dota2team = {
 			'R.R. Martin',
 			'Tyrion'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[26] = {
 		['name'] = "Shogun";
@@ -312,7 +312,7 @@ local dota2team = {
 			'Hattori Hanzo',
 			'Uesugi Kenshin'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[27] = {
 		['name'] = "Instec";
@@ -321,10 +321,10 @@ local dota2team = {
 			'Alfo',
 			'Ravelo',
 			'Piskunov',
-			'Hernan',
+			'German',
 			'Maikel'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[28] = {
 		['name'] = "Apostoles";
@@ -336,7 +336,7 @@ local dota2team = {
 			'Juan',
 			'Judas'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[29] = {
 		['name'] = "Cuba";
@@ -348,7 +348,7 @@ local dota2team = {
 			'Lazo',
 			'Gil'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[30] = {
 		['name'] = "Ajedrez";
@@ -360,7 +360,7 @@ local dota2team = {
 			'Carlsen',
 			'Fischer'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[31] = {
 		['name'] = "LOTR";
@@ -372,19 +372,19 @@ local dota2team = {
 			'Aragorn',
 			'Legolas'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[32] = {
 		['name'] = "Cuba2";
 		['alias'] = "Cuba";
 		['players'] = {
 			'Apagon',
-			'Hambre',
+			'Moringa',
 			'DPEPDPE',
 			'ETECSA',
-			'Moringa'
+			'Hambre'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[33] = {
 		['name'] = "Poet";
@@ -396,7 +396,7 @@ local dota2team = {
 			'Ruben Dario',
 			'Guillen'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[34] = {
 		['name'] = "Atomo";
@@ -408,19 +408,19 @@ local dota2team = {
 			'Foton',
 			'Quarks'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	},
 	[35] = {
 		['name'] = "Inclusivo";
 		['alias'] = "Inclusivo";
 		['players'] = {
-			'Negro',
-			'Chino',
-			'Mujer',
+			'Nigga',
+			'Vegano',
+			'Feminista',
 			'Gay',
-			'Vegano'
+			'Chino'
 		};
-		['sponsorship'] = 'Fundi';
+		['sponsorship'] = '';
 	}
 	
 	
@@ -438,7 +438,7 @@ local dota2team = {
 	
 }
 
-local sponsorship = {"Fundi"};
+local sponsorship = {""};
 
 function U.GetDota2Team()
 	local bot_names = {};
@@ -455,10 +455,10 @@ function U.GetDota2Team()
 	end
 	local team = dota2team[rand];
 	for _,player in pairs(team.players) do
-		if team.sponsorship == "" then
-			table.insert(bot_names, team.alias.."."..player.."."..sponsorship[srand]);
+		if team.alias == "" then
+			table.insert(bot_names, team.alias..""..player..""..sponsorship[srand]);
 		else
-			table.insert(bot_names, team.alias.."."..player.."."..team.sponsorship);
+			table.insert(bot_names, team.alias.."."..player..""..team.sponsorship);
 		end
 	end
 	return bot_names;

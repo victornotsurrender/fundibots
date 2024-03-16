@@ -12,15 +12,16 @@ X["items"] = {
 	"item_glimmer_cape",
 	--"item_meteor_hammer",
 	"item_force_staff",
-	"item_arcane_blink",
 	"item_octarine_core",
 	"item_guardian_greaves",
 	"item_sheepstick",
+	"item_ultimate_scepter",
+	"item_arcane_blink",
 	"item_hurricane_pike",
 	"item_ultimate_scepter_2",
+	"item_ethereal_blade",
 	"item_moon_shard",
-	"item_aghanims_shard",
-	"item_ethereal_blade"
+	"item_aghanims_shard"
 };
 
 X["builds"] = {

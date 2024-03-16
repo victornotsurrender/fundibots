@@ -1009,7 +1009,7 @@ function ConsiderGhostWalk(bot, nearbyEnemyHeroes)
 			then
 				local cpos = utils.GetTowardsFountainLocation( bot:GetLocation(), 0);
 					bot:ActionImmediate_Ping( cpos.x,  cpos.y, true)
-                return BOT_ACTION_DESIRE_HIGH
+                return BOT_ACTION_DESIRE_ABSOLUTE
             end
         end
     end

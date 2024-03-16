@@ -1,6 +1,13 @@
 local X = {}
 
 X.Roles = {
+   ["npc_dota_hero_hoodwink"] = 4;
+   ["npc_dota_hero_snapfire"] = 4;
+   ["npc_dota_hero_pangolier"] = 3;
+   ["npc_dota_hero_marci"] = 1;
+   ["npc_dota_hero_mars"] = 3;
+   ["npc_dota_hero_void_spirit"] = 2;
+   ["npc_dota_hero_dawnbreaker"] = 3;
    ["npc_dota_hero_abaddon"] = 3;
    ["npc_dota_hero_abyssal_underlord"] = 2;
    ["npc_dota_hero_alchemist"] = 2;

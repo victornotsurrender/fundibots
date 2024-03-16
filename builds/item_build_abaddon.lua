@@ -15,14 +15,14 @@ X["items"] = {
 	"item_lotus_orb",
 	"item_manta",
 	"item_basher",
-	"item_moon_shard",
 	"item_skadi",
-	"item_aghanims_shard",
 	--"item_mask_of_madness",	
 	-- "item_holy_locket",
 	--"item_kaya_and_sange",
 	--"item_assault",
 	"item_abyssal_blade",
+	"item_moon_shard",
+	"item_aghanims_shard",
 	"item_ultimate_scepter_2"
 	--"item_shivas_guard"
 };

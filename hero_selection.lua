@@ -5,6 +5,7 @@ local utils = require( "bots/util");
 local hero_roles = role["hero_roles"];
 -- mandate that the bots will pick these heroes - for testing purposes
 local requiredHeroes = {
+	"npc_dota_hero_marci",
 	'npc_dota_hero_dawnbreaker',
 	'npc_dota_hero_hoodwink',
     'npc_dota_hero_snapfire',
@@ -145,6 +146,7 @@ local quickMode = true;
 local testMode = false;
 
 local allBotHeroes = {
+	"npc_dota_hero_marci",
 	'npc_dota_hero_dawnbreaker',
 	'npc_dota_hero_hoodwink',
     'npc_dota_hero_snapfire',

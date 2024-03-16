@@ -146,6 +146,9 @@ function ConsiderW()
 	local currManaP = npcBot:GetMana() / npcBot:GetMaxMana();
 	local nDamage    = abilityW:GetSpecialValueInt("quill_base_damage") * 3;
 	
+	if npcBot:HasModifier("modifier_item_bloodstone") and npcBot:GetMana/npcBot:GetMaxMana > 0.5 then
+		return BOT_ACTION_DESIRE_ABSOLUTE;
+	end
 	
 	
 	--if we can hit any enemies with regen modifier

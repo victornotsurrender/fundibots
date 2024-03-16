@@ -9,16 +9,17 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_str",
 	--"item_echo_sabre",
-	"item_orb_of_corrosion",
+	"item_lesser_crit",
 	"item_solar_crest",
 	"item_desolator",
 	"item_helm_of_the_overlord",
 	"item_black_king_bar",
-	"item_aghanims_shard",
+	"item_greater_crit",
 	"item_assault",
 	"item_ultimate_scepter_2",
 	"item_abyssal_blade",
-	"item_moon_shard"
+	"item_moon_shard",
+	"item_aghanims_shard"
 };			
 
 X["builds"] = {

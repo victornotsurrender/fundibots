@@ -40,6 +40,33 @@ local bot = GetBot();
 local npcBot = GetBot();
 local bearCheckTime = DotaTime();
 
+--codigo fundi para que el druida le de items al oso
+
+local giver = Entities:FindByName(nil, "npc_dota_hero_lone_druid")
+local receiver = Entities:FindByName(nil, "npc_dota_lone_druid_bear")
+ 
+ 
+ 	if npcBot:HasModifier("modifier_item_phase_boots") and receiver:IsAlive() then 
+ 
+			local item = CreateItem("modifier_item_phase_boots", giver, giver)
+			giver:DropItemAtPositionImmediate(item, giver:GetAbsOrigin())
+			Timers:CreateTimer(0.1, function()
+			local droppedItems = Entities:FindAllByClassname("dota_item_drop")
+			for _, drop in pairs(droppedItems) do
+				if drop:GetContainedItem() == item then
+					receiverBot:PickupDroppedItem(drop)
+					break
+				end
+			end
+		
+	end
+
+	end
+
+-- Example usage:
+
+
+
 function AbilityUsageThink()
 
 	-- if npcBot == nil then npcBot = GetBot(); end

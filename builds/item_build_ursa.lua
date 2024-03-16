@@ -11,12 +11,12 @@ X["items"] = {
 	--"item_vladmir",
 	--"item_sange_and_yasha",
 	"item_blink",
-	"item_moon_shard",
-	"item_black_king_bar",
+	"item_assault",
 	"item_abyssal_blade",
 	"item_monkey_king_bar",
 	"item_swift_blink",
 	"item_ultimate_scepter_2",
+	"item_moon_shard",
 	"item_aghanims_shard"
 };			
 

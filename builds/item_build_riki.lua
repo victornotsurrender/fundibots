@@ -10,7 +10,7 @@ X["items"] = {
 	"item_diffusal_blade",
 	"item_greater_crit",
 	"item_ultimate_scepter",
-	"item_nullifier",
+	"item_abyssal_blade",
 	"item_skadi",
 	"item_ultimate_scepter_2",
 	"item_butterfly",

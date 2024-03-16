@@ -11,11 +11,11 @@ X["items"] = {
 	"item_invis_sword",
 	"item_basher",
 	"item_black_king_bar",
-	"item_moon_shard",
 	"item_skadi",
 	"item_abyssal_blade",
 	"item_silver_edge",
 	"item_ultimate_scepter_2",
+	"item_moon_shard",
 	"item_aghanims_shard"
 };			
 
