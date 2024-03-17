@@ -9,11 +9,11 @@ X["items"] = {
 	"item_power_treads_agi",
 	"item_manta",
 	"item_skadi",
-	"item_moon_shard",
 	"item_black_king_bar",
 	"item_butterfly",
 	"item_greater_crit",
 	"item_ultimate_scepter_2",
+	"item_moon_shard",
 	"item_aghanims_shard"
 	--"item_hurricane_pike"
 };			
