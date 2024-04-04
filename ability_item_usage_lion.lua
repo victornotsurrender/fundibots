@@ -145,7 +145,7 @@ function ConsiderQ()
 			if  mutil.CanCastOnNonMagicImmune(npcEnemy)
 			then	
 		for _,u in pairs(Atowers) do
-			if GetUnitToLocationDistance(bot,u:GetLocation()) <= 500 and GetUnitToLocationDistance(npcEnemy,u:GetLocation()) <= 500
+			if GetUnitToLocationDistance(bot,u:GetLocation()) <= nCastRange and GetUnitToLocationDistance(npcEnemy,u:GetLocation()) <= nCastRange
 				then
 			if #allies >= 0 then
 				local cpos = utils.GetTowardsFountainLocation( npcEnemy:GetLocation(), 0);

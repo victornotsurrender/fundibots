@@ -7,6 +7,7 @@ local skills  = IBUtil.FillSkillTable(npcBot, IBUtil.GetSlotPattern(1));
 
 X["items"] = { 
 	"item_arcane_boots",
+	"item_blink",
 	"item_mekansm",
 	"item_hood_of_defiance",
 	--"item_pipe",
@@ -15,7 +16,8 @@ X["items"] = {
 	"item_ultimate_scepter",
 	"item_eternal_shroud",
 	"item_guardian_greaves",
-	"item_heart",
+	"item_arcane_blink",
+	--"item_heart",
 	"item_ultimate_scepter_2",
 	"item_octarine_core",
 	"item_aghanims_shard",

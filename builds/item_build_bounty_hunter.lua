@@ -18,8 +18,7 @@ X["items"] = {
 	--"item_greater_crit",
 	"item_ethereal_blade",
 	"item_bloodthorn",
-	"item_moon_shard",
-	"item_aghanims_shard"
+	"item_moon_shard"
 };
 
 X["builds"] = {

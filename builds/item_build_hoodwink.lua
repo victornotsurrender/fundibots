@@ -15,8 +15,7 @@ X["items"] = {
 	"item_ultimate_scepter_2",
 	"item_monkey_king_bar",
 	"item_hurricane_pike",
-	"item_moon_shard",
-	"item_aghanims_shard"
+	"item_moon_shard"
 };
 
 X["builds"] = {

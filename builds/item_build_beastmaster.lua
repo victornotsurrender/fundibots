@@ -18,7 +18,6 @@ X["items"] = {
 	"item_helm_of_the_overlord",
 	"item_assault",
 	"item_overwhelming_blink",
-	"item_aghanims_shard",
 	"item_moon_shard"
 	--"item_shivas_guard"
 	-- "item_bloodthorn",

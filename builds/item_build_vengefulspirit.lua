@@ -8,6 +8,7 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_agi",
 	"item_medallion_of_courage",
+	"item_blink",
 	"item_force_staff",
 	"item_desolator",
 	"item_solar_crest",
@@ -15,7 +16,6 @@ X["items"] = {
 	--"item_cyclone",
 	"item_hurricane_pike",
 	"item_monkey_king_bar",
-	"item_greater_crit",
 	"item_ultimate_scepter_2",
 	"item_aghanims_shard",
 	"item_moon_shard"

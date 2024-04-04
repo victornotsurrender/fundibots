@@ -11,9 +11,8 @@ X["items"] = {
 	"item_glimmer_cape",
 	--"item_power_treads_str",
 	"item_spirit_vessel",
-	"item_orb_of_corrosion",
-	"item_blink",
 	"item_lotus_orb",
+	"item_blink",
 	"item_abyssal_blade",
 	--"item_heavens_halberd",
 	--"item_octarine_core",
@@ -21,8 +20,7 @@ X["items"] = {
 	"item_overwhelming_blink",
 	--"item_shivas_guard",
 	"item_ultimate_scepter_2",
-	"item_moon_shard",
-	"item_aghanims_shard"
+	"item_moon_shard"
 	--"item_hurricane_pike"
 	
 };			

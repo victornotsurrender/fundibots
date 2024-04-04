@@ -11,14 +11,14 @@ is a clone and skill/item decisions will possilby break! ]]
 
 X["items"] = { 
 	"item_power_treads",
-	"item_sange_and_yasha",
-	--"item_blink",
+	--"item_sange_and_yasha",
+	"item_blink",
+	"item_skadi",
 	"item_ultimate_scepter",
 	"item_helm_of_the_overlord",
 	--"item_sheepstick",
-	"item_skadi",
 	"item_heart",
-	--"item_swift_blink",
+	"item_swift_blink",
 	"item_ultimate_scepter_2",
 	"item_ethereal_blade",
 	"item_moon_shard",
