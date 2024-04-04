@@ -15,8 +15,7 @@ X["items"] = {
 	"item_abyssal_blade",
 	"item_silver_edge",
 	"item_ultimate_scepter_2",
-	"item_moon_shard",
-	"item_aghanims_shard"
+	"item_moon_shard"
 };			
 
 X["builds"] = {

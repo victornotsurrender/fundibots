@@ -21,8 +21,7 @@ X["items"] = {
 	"item_swift_blink",
 	"item_ultimate_scepter_2",
 	"item_ethereal_blade",
-	"item_moon_shard",
-	"item_aghanims_shard"
+	"item_moon_shard"
 	--"item_bloodthorn",
 	--"item_octarine_core"
 };			

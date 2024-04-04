@@ -13,9 +13,7 @@ X["items"] = {
 	"item_black_king_bar",
 	"item_abyssal_blade",
 	"item_butterfly",
-	"item_moon_shard",
-	"item_ultimate_scepter_2",
-	"item_aghanims_shard"
+	"item_moon_shard"
 };
 
 X["builds"] = {

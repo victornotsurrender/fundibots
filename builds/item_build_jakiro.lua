@@ -19,9 +19,8 @@ X["items"] = {
 	"item_octarine_core",
 	"item_gungir",
 	"item_wind_waker",
-	"item_moon_shard",
-	"item_aghanims_shard"
-};			
+	"item_moon_shard"
+	};			
 
 X["builds"] = {
 	{1,3,1,3,3,4,3,2,2,2,4,2,1,1,4},

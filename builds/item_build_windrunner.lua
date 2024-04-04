@@ -20,7 +20,6 @@ X["items"] = {
 	"item_bloodthorn",
 	--"item_arcane_blink",
 	--"item_mjollnir",
-	"item_aghanims_shard",
 	"item_moon_shard"	
 };			
 

@@ -16,7 +16,6 @@ X["items"] = {
 	"item_monkey_king_bar",
 	"item_swift_blink",
 	"item_ultimate_scepter_2",
-	"item_aghanims_shard",
 	"item_moon_shard"
 	
 };			

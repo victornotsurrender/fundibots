@@ -9,8 +9,8 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_int",
 	"item_blink",
-	"item_ultimate_scepter",
 	"item_cyclone",
+	"item_ultimate_scepter",
 	--"item_sheepstick",
 	"item_mjollnir",
 	"item_ultimate_scepter_2",
@@ -18,7 +18,6 @@ X["items"] = {
 	"item_wind_waker",
 	"item_arcane_blink",
 	"item_ethereal_blade",
-	"item_aghanims_shard",
 	"item_moon_shard"
 };			
 

@@ -17,7 +17,6 @@ X["items"] = {
 	"item_greater_crit",
 	"item_silver_edge",
 	"item_hurricane_pike",
-	"item_aghanims_shard",
 	"item_moon_shard"
 };			
 

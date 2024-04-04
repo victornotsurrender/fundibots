@@ -17,9 +17,8 @@ X["items"] = {
 	"item_butterfly",
 	--"item_heart",
 	"item_ultimate_scepter_2",
-	"item_abyssal_blade",
-	"item_aghanims_shard"
-};			
+	"item_abyssal_blade"
+	};			
 
 X["builds"] = {
 	{1,3,3,2,3,4,3,2,2,2,4,1,1,1,4},

@@ -12,7 +12,6 @@ X["items"] = {
 	"item_vanguard",
 	"item_blade_mail",
 	"item_guardian_greaves",
-	"item_aghanims_shard",
 	"item_pipe",
 	"item_crimson_guard",
 	"item_lotus_orb",

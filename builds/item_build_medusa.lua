@@ -19,8 +19,7 @@ X["items"] = {
 	"item_greater_crit",
 	--"item_butterfly",
 	"item_hurricane_pike",
-	"item_moon_shard",
-	"item_aghanims_shard"
+	"item_moon_shard"
 };			
 
 X["builds"] = {

@@ -18,7 +18,6 @@ X["items"] = {
 	"item_sheepstick",
 	"item_wind_waker",
 	"item_guardian_greaves",
-	"item_aghanims_shard",
 	"item_moon_shard"
 	--"item_silver_edge"
 };			

@@ -21,7 +21,6 @@ X["items"] = {
 	"item_assault",
 	"item_gungir",
 	"item_guardian_greaves",
-	"item_aghanims_shard",
 	"item_moon_shard"
 	--"item_monkey_king_bar"
 };			

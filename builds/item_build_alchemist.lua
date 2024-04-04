@@ -11,13 +11,12 @@ X["items"] = {
 	"item_power_treads_str",
 	"item_radiance",
 	"item_lesser_crit",
-	"item_black_king_bar",
 	"item_manta",
+	"item_black_king_bar",
 	"item_basher",
 	"item_greater_crit",
 	"item_abyssal_blade",
 	"item_moon_shard",
-	"item_aghanims_shard",
 	"item_ultimate_scepter_2"
 };
 

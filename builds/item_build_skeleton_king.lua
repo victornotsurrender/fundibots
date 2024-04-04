@@ -16,9 +16,7 @@ X["items"] = {
 	"item_overwhelming_blink",
 	"item_ultimate_scepter_2",
 	"item_assault",
-	"item_moon_shard",
-	"item_aghanims_shard"
-	
+	"item_moon_shard"	
 };			
 
 X["builds"] = {
