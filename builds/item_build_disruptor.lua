@@ -13,7 +13,7 @@ X["items"] = {
 	"item_aether_lens",
 	"item_ultimate_scepter",
 	--"item_kaya",
-	"item_dagon_5"
+	"item_dagon_5",
 	"item_octarine_core",
 	--"item_bloodstone",
 	"item_ultimate_scepter_2",

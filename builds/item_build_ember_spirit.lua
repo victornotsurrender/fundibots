@@ -12,7 +12,6 @@ X["items"] = {
 	"item_pers",
 	"item_maelstrom",
 	"item_blink",
-	"item_mage_slayer",
 	"item_bfury",
 	--"item_lesser_crit",
 	--"item_shivas_guard",
@@ -21,6 +20,7 @@ X["items"] = {
 	--"item_sphere",
 	"item_ultimate_scepter_2",
 	"item_swift_blink",
+	"item_rapier",
 	--"item_mjollnir",
 	"item_moon_shard"
 };			
