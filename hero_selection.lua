@@ -1080,6 +1080,8 @@ function SelectLaneChatCallback(PlayerID, ChatText, bTeamOnly)
 	end
 end
 
+local cntDebug = 0;
+
 ---------------------------------------------------------LANE ASSIGNMENT-----------------------------------------------------------------
 function UpdateLaneAssignments() 
 
@@ -1088,7 +1090,20 @@ function UpdateLaneAssignments()
 	then
 	if ( GetTeam() == TEAM_RADIANT )
     then
-        --print( "Radiant lane assignments" );
+		-- if cntDebug < 100 then
+		-- 	cntDebug = cntDebug+1;
+		-- 	for x = 1,5 do
+		-- 		print("Hero lane #" .. x .. ": " .. banana[x]);
+		-- 	end
+		-- end
+		-- HeroLanes = {
+		-- 	[1] = LANE_MID,
+		-- 	[2] = LANE_TOP,
+		-- 	[3] = LANE_BOT,
+		-- 	[4] = LANE_TOP,
+		-- 	[5] = LANE_BOT,
+		-- 	};
+        -- print( "Radiant lane assignments" );
         return {
         [1] = LANE_MID,
         [2] = LANE_TOP,
@@ -1098,7 +1113,7 @@ function UpdateLaneAssignments()
         };
     elseif ( GetTeam() == TEAM_DIRE )
     then
-        --print( "Dire lane assignments" );
+        -- print( "Dire lane assignments" );
         return {
         [1] = LANE_MID,
         [2] = LANE_TOP,
@@ -1111,7 +1126,7 @@ function UpdateLaneAssignments()
 
    
 	if GetGameMode() == GAMEMODE_AP or GetGameMode() == GAMEMODE_TM or GetGameMode() == GAMEMODE_SD then
-		--print("AP Lane Assignment")
+		print("Lane Assignment")
 		if GetGameState() == GAME_STATE_STRATEGY_TIME or GetGameState() == GAME_STATE_PRE_GAME then
 			InstallChatCallback(function (attr) SelectLaneChatCallback(attr.player_id, attr.string, attr.team_only); end);
 		end

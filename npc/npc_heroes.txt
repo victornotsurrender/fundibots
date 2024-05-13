@@ -3021,7 +3021,7 @@
 		"Team"		"Bad"
 		"HeroID"		"14"
 		"HeroOrderID"	"14"
-		"BotImplemented"		"1"
+		"BotImplemented"		"0"
 		"ModelScale"		"0.980000"
 		"VersusScale"		"0.900000"
 		"LoadoutScale"		"0.920000"

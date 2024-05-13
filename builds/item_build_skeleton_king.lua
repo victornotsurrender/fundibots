@@ -9,13 +9,16 @@ X["items"] = {
 	"item_magic_wand",
 	"item_power_treads_str",
 	"item_blink",
-	"item_desolator",
+	"item_blade_mail",
+	--"item_desolator",
     "item_radiance",
+	--"item_desolator",
 	"item_ultimate_scepter",
-	"item_satanic",
-	"item_overwhelming_blink",
+	"item_abyssal_blade",
 	"item_ultimate_scepter_2",
+	--"item_satanic",
 	"item_assault",
+	"item_overwhelming_blink",
 	"item_moon_shard"	
 };			
 

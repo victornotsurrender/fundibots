@@ -187,7 +187,7 @@ X["hero_roles"] = {
 	},
 
 	["npc_dota_hero_elder_titan"] = {
-		['carry'] = 0,
+		['carry'] = 1,
 		['disabler'] = 1,
 		['durable'] = 1,
 		['escape'] = 0,
@@ -225,7 +225,7 @@ X["hero_roles"] = {
 	["npc_dota_hero_wisp"] = {
 		['carry'] = 0,
 		['disabler'] = 0,
-		['durable'] = 0,
+		['durable'] = 1,
 		['escape'] = 2,
 		['initiator'] = 0,
 		['jungler'] = 0,
@@ -247,7 +247,7 @@ X["hero_roles"] = {
 	},
 
 	["npc_dota_hero_legion_commander"] = {
-		['carry'] = 1,
+		['carry'] = 3,
 		['disabler'] = 2,
 		['durable'] = 1,
 		['escape'] = 0,
@@ -290,7 +290,7 @@ X["hero_roles"] = {
 		['initiator'] = 3,
 		['jungler'] = 0,
 		['nuker'] = 1,
-		['support'] = 0,
+		['support'] = 2,
 		['pusher'] = 0
 	},
 
@@ -1619,6 +1619,7 @@ X['off'] = {
 	'npc_dota_hero_centaur',
 	'npc_dota_hero_dark_seer',
 	'npc_dota_hero_doom_bringer',
+	'npc_dota_hero_elder_titan',
 	'npc_dota_hero_enchantress',
 	'npc_dota_hero_furion',
 	'npc_dota_hero_legion_commander',

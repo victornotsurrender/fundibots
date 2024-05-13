@@ -339,7 +339,70 @@ end
 		end
 	end
 	
+
+	-- Farm Types
+	function IsNormalFarmer(bot)
+
+		local botName = bot:GetUnitName();
+		
+		 return botName == "npc_dota_hero_chaos_knight" 
+			 or botName == "npc_dota_hero_dragon_knight"
+			 or botName == "npc_dota_hero_ogre_magi"
+			 or botName == "npc_dota_hero_omniknight"
+			 or botName == "npc_dota_hero_bristleback" 
+			 or botName == "npc_dota_hero_sand_king" 
+			 or botName == "npc_dota_hero_skeleton_king"
+			 or botName == "npc_dota_hero_kunkka"
+			 or botName == "npc_dota_hero_sniper"
+			 or botName == "npc_dota_hero_viper" 
+			 or botName == "npc_dota_hero_clinkz" 
+			 or botName == "npc_dota_hero_mirana" 
+			 or botName == "npc_dota_hero_disruptor"
+			 or botName == "npc_dota_hero_shadow_demon"
+			 or botName == "npc_dota_hero_vengefulspirit"
+			 or botName == "npc_dota_hero_omniknight"
+			 or botName == "npc_dota_hero_abaddon"
 	
+	end
+	
+	
+	function IsHighFarmer(bot)
+	
+		local botName = bot:GetUnitName();
+		
+		return botName == "npc_dota_hero_nevermore"
+			or botName == "npc_dota_hero_templar_assassin"
+			or botName == "npc_dota_hero_phantom_assassin"
+			or botName == "npc_dota_hero_phantom_lancer"
+			or botName == "npc_dota_hero_drow_ranger"
+			or botName == "npc_dota_hero_luna"
+			or botName == "npc_dota_hero_antimage"
+			or botName == "npc_dota_hero_arc_warden"
+			or botName == "npc_dota_hero_bloodseeker"
+			or botName == "npc_dota_hero_medusa"
+			or botName == "npc_dota_hero_razor"
+			or botName == "npc_dota_hero_huskar"
+			or botName == "npc_dota_hero_juggernaut"
+			or botName == "npc_dota_hero_slark"
+			or botName == "npc_dota_hero_naga_siren"
+			or botName == "npc_dota_hero_legion_commander"
+			
+	end
+	
+	
+	function IsVeryHighFarmer(bot)
+	
+		local botName = bot:GetUnitName();
+		
+		return botName == "npc_dota_hero_nevermore"
+			or botName == "npc_dota_hero_luna"
+			or botName == "npc_dota_hero_antimage"
+			or botName == "npc_dota_hero_medusa"
+			or botName == "npc_dota_hero_naga_siren"
+			or botName == "npc_dota_hero_phantom_lancer"
+			or botName == "npc_dota_hero_razor"
+			
+	end
 	-----------------------------
 	
 	if not bInitDone
@@ -1899,70 +1962,6 @@ function IsLocCanBeSeen(vLoc)
 	       and IsLocationVisible(tempLocUp) 
 		   and IsLocationVisible(tempLocDown)
 
-end
-
-
-function IsNormalFarmer(bot)
-
-	local botName = bot:GetUnitName();
-	
-	 return botName == "npc_dota_hero_chaos_knight" 
-		 or botName == "npc_dota_hero_dragon_knight"
-		 or botName == "npc_dota_hero_ogre_magi"
-		 or botName == "npc_dota_hero_omniknight"
-		 or botName == "npc_dota_hero_bristleback" 
-		 or botName == "npc_dota_hero_sand_king" 
-		 or botName == "npc_dota_hero_skeleton_king"
-		 or botName == "npc_dota_hero_kunkka"
-		 or botName == "npc_dota_hero_sniper"
-		 or botName == "npc_dota_hero_viper" 
-		 or botName == "npc_dota_hero_clinkz" 
-		 or botName == "npc_dota_hero_mirana" 
-		 or botName == "npc_dota_hero_disruptor"
-		 or botName == "npc_dota_hero_shadow_demon"
-		 or botName == "npc_dota_hero_vengefulspirit"
-		 or botName == "npc_dota_hero_omniknight"
-		 or botName == "npc_dota_hero_abaddon"
-
-end
-
-
-function IsHighFarmer(bot)
-
-	local botName = bot:GetUnitName();
-	
-	return botName == "npc_dota_hero_nevermore"
-		or botName == "npc_dota_hero_templar_assassin"
-		or botName == "npc_dota_hero_phantom_assassin"
-		or botName == "npc_dota_hero_phantom_lancer"
-		or botName == "npc_dota_hero_drow_ranger"
-		or botName == "npc_dota_hero_luna"
-		or botName == "npc_dota_hero_antimage"
-		or botName == "npc_dota_hero_arc_warden"
-		or botName == "npc_dota_hero_bloodseeker"
-		or botName == "npc_dota_hero_medusa"
-		or botName == "npc_dota_hero_razor"
-		or botName == "npc_dota_hero_huskar"
-		or botName == "npc_dota_hero_juggernaut"
-		or botName == "npc_dota_hero_slark"
-		or botName == "npc_dota_hero_naga_siren"
-		or botName == "npc_dota_hero_legion_commander"
-		
-end
-
-
-function IsVeryHighFarmer(bot)
-
-	local botName = bot:GetUnitName();
-	
-	return botName == "npc_dota_hero_nevermore"
-		or botName == "npc_dota_hero_luna"
-		or botName == "npc_dota_hero_antimage"
-		or botName == "npc_dota_hero_medusa"
-		or botName == "npc_dota_hero_naga_siren"
-		or botName == "npc_dota_hero_phantom_lancer"
-		or botName == "npc_dota_hero_razor"
-		
 end
 
 function SetPushBonus( bot )

@@ -209,6 +209,10 @@ function ConsiderW()
 	
 	local manaCost = abilities[3]:GetManaCost();
 	local manaCost2  = abilities[4]:GetManaCost();
+
+	if stack == nStack and bot:GetMana() >= manaCost then
+		return BOT_ACTION_DESIRE_ABSOLUTE;
+	end
 	
 	if abilities[4]:IsTrained() and abilities[4]:IsFullyCastable() then
 		if bot:GetMana() - manaCost <= manaCost2 + 50 then

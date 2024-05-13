@@ -1836,8 +1836,8 @@ function X.GetCurrentSuitableRole(bot, hero)
 		return "offlaner";
 	elseif hero == "npc_dota_hero_wisp" then
 		return "support";
-	elseif hero == "npc_dota_hero_elder_titan" then
-		return "offlaner";
+	-- elseif hero == "npc_dota_hero_elder_titan" then
+	-- 	return "offlaner";
 	else
 		return "unknown";
 	end
